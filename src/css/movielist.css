@@ -1,0 +1,19 @@
+.mlist {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mlist .mitem {
+  margin: 20px;
+}
+.mlist .mitem:hover {
+  box-shadow: 5px 5px 10px #ccc;
+  transform: scale(1.05);
+}
+.mlist .mitem img {
+  height: 350px;
+}
+.mlist .mitem p {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
